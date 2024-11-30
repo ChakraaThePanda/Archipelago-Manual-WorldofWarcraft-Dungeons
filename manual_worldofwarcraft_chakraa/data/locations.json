@@ -1,0 +1,906 @@
+[
+  {
+    "name": "Cataclysm - Deadmines 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Deadmines|"
+  },
+  {
+    "name": "Cataclysm - Deadmines 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Deadmines|"
+  },
+  {
+    "name": "Cataclysm - Ragefire Chasm 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Ragefire Chasm|"
+  },
+  {
+    "name": "Cataclysm - Ragefire Chasm 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Ragefire Chasm|"
+  },
+  {
+    "name": "Cataclysm - Shadowfang Keep 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Shadowfang Keep|"
+  },
+  {
+    "name": "Cataclysm - Shadowfang Keep 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Shadowfang Keep|"
+  },
+  {
+    "name": "Cataclysm - Wailing Caverns 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Wailing Caverns|"
+  },
+  {
+    "name": "Cataclysm - Wailing Caverns 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Wailing Caverns|"
+  },
+  {
+    "name": "Cataclysm - Blackfathom Deeps 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Blackfathom Deeps|"
+  },
+  {
+    "name": "Cataclysm - Blackfathom Deeps 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Blackfathom Deeps|"
+  },
+  {
+    "name": "Cataclysm - Gnomeragan 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Gnomeragan|"
+  },
+  {
+    "name": "Cataclysm - Gnomeragan 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Gnomeragan|"
+  },
+  {
+    "name": "Cataclysm - Maraudon - Earth Song Falls 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Maraudon - Earth Song Falls|"
+  },
+  {
+    "name": "Cataclysm - Maraudon - Earth Song Falls 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Maraudon - Earth Song Falls|"
+  },
+  {
+    "name": "Cataclysm - Maraudon - Foulspore Cavern 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Maraudon - Foulspore Cavern|"
+  },
+  {
+    "name": "Cataclysm - Maraudon - Foulspore Cavern 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Maraudon - Foulspore Cavern|"
+  },
+  {
+    "name": "Cataclysm - Maraudon - The Wicked Grotto 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Maraudon - The Wicked Grotto|"
+  },
+  {
+    "name": "Cataclysm - Maraudon - The Wicked Grotto 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Maraudon - The Wicked Grotto|"
+  },
+  {
+    "name": "Cataclysm - Razorfen Kraul 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Razorfen Kraul|"
+  },
+  {
+    "name": "Cataclysm - Razorfen Kraul 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Razorfen Kraul|"
+  },
+  {
+    "name": "Cataclysm - Scarlet Halls 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Scarlet Halls|"
+  },
+  {
+    "name": "Cataclysm - Scarlet Halls 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Scarlet Halls|"
+  },
+  {
+    "name": "Cataclysm - Scarlet Monastery 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Scarlet Monastery|"
+  },
+  {
+    "name": "Cataclysm - Scarlet Monastery 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Scarlet Monastery|"
+  },
+  {
+    "name": "Cataclysm - Stormwind Stockade 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Stormwind Stockade|"
+  },
+  {
+    "name": "Cataclysm - Stormwind Stockade 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Stormwind Stockade|"
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Capital Gardens 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Dire Maul - Capital Gardens|"
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Capital Gardens 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Dire Maul - Capital Gardens|"
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Gordok Commons 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Dire Maul - Gordok Commons|"
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Gordok Commons 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Dire Maul - Gordok Commons|"
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Warpwood Quarter 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Dire Maul - Warpwood Quarter|"
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Warpwood Quarter 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Dire Maul - Warpwood Quarter|"
+  },
+  {
+    "name": "Cataclysm - Razorfen Downs 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Razorfen Downs|"
+  },
+  {
+    "name": "Cataclysm - Razorfen Downs 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Razorfen Downs|"
+  },
+  {
+    "name": "Cataclysm - Scholomance 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Scholomance|"
+  },
+  {
+    "name": "Cataclysm - Scholomance 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Scholomance|"
+  },
+  {
+    "name": "Cataclysm - Stratholme - Main Gate 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Stratholme - Main Gate|"
+  },
+  {
+    "name": "Cataclysm - Stratholme - Main Gate 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Stratholme - Main Gate|"
+  },
+  {
+    "name": "Cataclysm - Uldaman 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Uldaman|"
+  },
+  {
+    "name": "Cataclysm - Uldaman 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Uldaman|"
+  },
+  {
+    "name": "Cataclysm - Zul'Farrak 1",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Zul'Farrak|"
+  },
+  {
+    "name": "Cataclysm - Zul'Farrak 2",
+    "category": [
+      "Cataclysm"
+    ],
+    "requires": "|Cataclysm - Zul'Farrak|"
+  },
+  {
+    "name": "The Burning Crusade - Blood Furnace 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Blood Furnace|"
+  },
+  {
+    "name": "The Burning Crusade - Blood Furnace 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Blood Furnace|"
+  },
+  {
+    "name": "The Burning Crusade - Hellfire Ramparts 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Hellfire Ramparts|"
+  },
+  {
+    "name": "The Burning Crusade - Hellfire Ramparts 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Hellfire Ramparts|"
+  },
+  {
+    "name": "The Burning Crusade - Slave Pens 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Slave Pens|"
+  },
+  {
+    "name": "The Burning Crusade - Slave Pens 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Slave Pens|"
+  },
+  {
+    "name": "The Burning Crusade - Underbog 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Underbog|"
+  },
+  {
+    "name": "The Burning Crusade - Underbog 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Underbog|"
+  },
+  {
+    "name": "The Burning Crusade - Auchenai Crypts 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Auchenai Crypts|"
+  },
+  {
+    "name": "The Burning Crusade - Auchenai Crypts 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Auchenai Crypts|"
+  },
+  {
+    "name": "The Burning Crusade - Mana-Tombs 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Mana-Tombs|"
+  },
+  {
+    "name": "The Burning Crusade - Mana-Tombs 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Mana-Tombs|"
+  },
+  {
+    "name": "The Burning Crusade - Sethekk Halls 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Sethekk Halls|"
+  },
+  {
+    "name": "The Burning Crusade - Sethekk Halls 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - Sethekk Halls|"
+  },
+  {
+    "name": "The Burning Crusade - The Escape from Durnholde 1",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - The Escape from Durnholde|"
+  },
+  {
+    "name": "The Burning Crusade - The Escape from Durnholde 2",
+    "category": [
+      "The Burning Crusade"
+    ],
+    "requires": "|The Burning Crusade - The Escape from Durnholde|"
+  },
+  {
+    "name": "Wrath of the Lich King - The Nexus 1",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - The Nexus|"
+  },
+  {
+    "name": "Wrath of the Lich King - The Nexus 2",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - The Nexus|"
+  },
+  {
+    "name": "Wrath of the Lich King - Utgarde Keep 1",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Utgarde Keep|"
+  },
+  {
+    "name": "Wrath of the Lich King - Utgarde Keep 2",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Utgarde Keep|"
+  },
+  {
+    "name": "Wrath of the Lich King - Ahn'kanet: The Old Kingdom 1",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Ahn'kanet - The Old Kingdom|"
+  },
+  {
+    "name": "Wrath of the Lich King - Ahn'kanet: The Old Kingdom 2",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Ahn'kanet - The Old Kingdom|"
+  },
+  {
+    "name": "Wrath of the Lich King - Azjol-Nerub 1",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Azjol-Nerub|"
+  },
+  {
+    "name": "Wrath of the Lich King - Azjol-Nerub 2",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Azjol-Nerub|"
+  },
+  {
+    "name": "Wrath of the Lich King - Drak'Tharon Keep 1",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Drak'Tharon Keep|"
+  },
+  {
+    "name": "Wrath of the Lich King - Drak'Tharon Keep 2",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Drak'Tharon Keep|"
+  },
+  {
+    "name": "Wrath of the Lich King - Violet Hold 1",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Violet Hold|"
+  },
+  {
+    "name": "Wrath of the Lich King - Violet Hold 2",
+    "category": [
+      "Wrath of the Lich King"
+    ],
+    "requires": "|Wrath of the Lich King - Violet Hold|"
+  },
+  {
+    "name": "Mists of Pandaria - Temple of the Jade Serpent 1",
+    "category": [
+      "Mists of Pandaria"
+    ],
+    "requires": "|Mists of Pandaria - Temple of the Jade Serpent|"
+  },
+  {
+    "name": "Mists of Pandaria - Temple of the Jade Serpent 2",
+    "category": [
+      "Mists of Pandaria"
+    ],
+    "requires": "|Mists of Pandaria - Temple of the Jade Serpent|"
+  },
+  {
+    "name": "Mists of Pandaria - Stormstout Brewery 1",
+    "category": [
+      "Mists of Pandaria"
+    ],
+    "requires": "|Mists of Pandaria - Stormstout Brewery|"
+  },
+  {
+    "name": "Mists of Pandaria - Stormstout Brewery 2",
+    "category": [
+      "Mists of Pandaria"
+    ],
+    "requires": "|Mists of Pandaria - Stormstout Brewery|"
+  },
+  {
+    "name": "Warlords of Draenor - Bloodmaul Slag Mines 1",
+    "category": [
+      "Warlords of Draenor"
+    ],
+    "requires": "|Warlords of Draenor - Bloodmaul Slag Mines|"
+  },
+  {
+    "name": "Warlords of Draenor - Bloodmaul Slag Mines 2",
+    "category": [
+      "Warlords of Draenor"
+    ],
+    "requires": "|Warlords of Draenor - Bloodmaul Slag Mines|"
+  },
+  {
+    "name": "Warlords of Draenor - Shadowmoon Burial Grounds 1",
+    "category": [
+      "Warlords of Draenor"
+    ],
+    "requires": "|Warlords of Draenor - Shadowmoon Burial Grounds|"
+  },
+  {
+    "name": "Warlords of Draenor - Shadowmoon Burial Grounds 2",
+    "category": [
+      "Warlords of Draenor"
+    ],
+    "requires": "|Warlords of Draenor - Shadowmoon Burial Grounds|"
+  },
+  {
+    "name": "Warlords of Draenor - Iron Docks 1",
+    "category": [
+      "Warlords of Draenor"
+    ],
+    "requires": "|Warlords of Draenor - Iron Docks|"
+  },
+  {
+    "name": "Warlords of Draenor - Iron Docks 2",
+    "category": [
+      "Warlords of Draenor"
+    ],
+    "requires": "|Warlords of Draenor - Iron Docks|"
+  },
+  {
+    "name": "Legion - Assault on Violet Hold 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Assault on Violet Hold|"
+  },
+  {
+    "name": "Legion - Assault on Violet Hold 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Assault on Violet Hold|"
+  },
+  {
+    "name": "Legion - Black Rook Hold 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Black Rook Hold|"
+  },
+  {
+    "name": "Legion - Black Rook Hold 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Black Rook Hold|"
+  },
+  {
+    "name": "Legion - Darkheart Thicket 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Darkheart Thicket|"
+  },
+  {
+    "name": "Legion - Darkheart Thicket 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Darkheart Thicket|"
+  },
+  {
+    "name": "Legion - Eye of Azshara 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Eye of Azshara|"
+  },
+  {
+    "name": "Legion - Eye of Azshara 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Eye of Azshara|"
+  },
+  {
+    "name": "Legion - Halls of Valor 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Halls of Valor|"
+  },
+  {
+    "name": "Legion - Halls of Valor 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Halls of Valor|"
+  },
+  {
+    "name": "Legion - Maw of Souls 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Maw of Souls|"
+  },
+  {
+    "name": "Legion - Maw of Souls 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Maw of Souls|"
+  },
+  {
+    "name": "Legion - Neltharion's Lair 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Neltharion's Lair|"
+  },
+  {
+    "name": "Legion - Neltharion's Lair 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Neltharion's Lair|"
+  },
+  {
+    "name": "Legion - Vault of the Wardens 1",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Vault of the Wardens|"
+  },
+  {
+    "name": "Legion - Vault of the Wardens 2",
+    "category": [
+      "Legion"
+    ],
+    "requires": "|Legion - Vault of the Wardens|"
+  },
+  {
+    "name": "Battle for Azeroth - Atal'Dazar 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Atal'Dazar|"
+  },
+  {
+    "name": "Battle for Azeroth - Atal'Dazar 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Atal'Dazar|"
+  },
+  {
+    "name": "Battle for Azeroth - Freehold 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Freehold|"
+  },
+  {
+    "name": "Battle for Azeroth - Freehold 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Freehold|"
+  },
+  {
+    "name": "Battle for Azeroth - Shrine of the Storm 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Shrine of the Storm|"
+  },
+  {
+    "name": "Battle for Azeroth - Shrine of the Storm 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Shrine of the Storm|"
+  },
+  {
+    "name": "Battle for Azeroth - Temple of Sethraliss 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Temple of Sethraliss|"
+  },
+  {
+    "name": "Battle for Azeroth - Temple of Sethraliss 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Temple of Sethraliss|"
+  },
+  {
+    "name": "Battle for Azeroth - The MOTHERLODE!! 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - The MOTHERLODE!!|"
+  },
+  {
+    "name": "Battle for Azeroth - The MOTHERLODE!! 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - The MOTHERLODE!!|"
+  },
+  {
+    "name": "Battle for Azeroth - The Underrot 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - The Underrot|"
+  },
+  {
+    "name": "Battle for Azeroth - The Underrot 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - The Underrot|"
+  },
+  {
+    "name": "Battle for Azeroth - Tol Dagor 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Tol Dagor|"
+  },
+  {
+    "name": "Battle for Azeroth - Tol Dagor 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Tol Dagor|"
+  },
+  {
+    "name": "Battle for Azeroth - Waycrest Manor 1",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Waycrest Manor|"
+  },
+  {
+    "name": "Battle for Azeroth - Waycrest Manor 2",
+    "category": [
+      "Battle for Azeroth"
+    ],
+    "requires": "|Battle for Azeroth - Waycrest Manor|"
+  },
+  {
+    "name": "Shadowlands - De Other Side 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - De Other Side|"
+  },
+  {
+    "name": "Shadowlands - De Other Side 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - De Other Side|"
+  },
+  {
+    "name": "Shadowlands - Halls of Atonement 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Halls of Atonement|"
+  },
+  {
+    "name": "Shadowlands - Halls of Atonement 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Halls of Atonement|"
+  },
+  {
+    "name": "Shadowlands - Mists of Tirna Scithe 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Mists of Tirna Scithe|"
+  },
+  {
+    "name": "Shadowlands - Mists of Tirna Scithe 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Mists of Tirna Scithe|"
+  },
+  {
+    "name": "Shadowlands - Plaguefall 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Plaguefall|"
+  },
+  {
+    "name": "Shadowlands - Plaguefall 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Plaguefall|"
+  },
+  {
+    "name": "Shadowlands - Sanguine Depths 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Sanguine Depths|"
+  },
+  {
+    "name": "Shadowlands - Sanguine Depths 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Sanguine Depths|"
+  },
+  {
+    "name": "Shadowlands - Spires of Ascension 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Spires of Ascension|"
+  },
+  {
+    "name": "Shadowlands - Spires of Ascension 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Spires of Ascension|"
+  },
+  {
+    "name": "Shadowlands - The Necrotic Wake 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - The Necrotic Wake|"
+  },
+  {
+    "name": "Shadowlands - The Necrotic Wake 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - The Necrotic Wake|"
+  },
+  {
+    "name": "Shadowlands - Theater of Pain 1",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Theater of Pain|"
+  },
+  {
+    "name": "Shadowlands - Theater of Pain 2",
+    "category": [
+      "Shadowlands"
+    ],
+    "requires": "|Shadowlands - Theater of Pain|"
+  },
+  {
+    "name": "Victory",
+    "category": [
+      "Win Condition"
+    ],
+    "requires": "|Gold Coin:20|",
+    "victory": true
+  }
+]

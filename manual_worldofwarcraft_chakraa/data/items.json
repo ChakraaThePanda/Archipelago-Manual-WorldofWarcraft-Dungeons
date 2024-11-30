@@ -1,0 +1,874 @@
+[
+  {
+    "name": "Cataclysm - Deadmines",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Ragefire Chasm",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Shadowfang Keep",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Wailing Caverns",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Blackfathom Deeps",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Gnomeragan",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Maraudon - Earth Song Falls",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Maraudon - Foulspore Cavern",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Maraudon - The Wicked Grotto",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Razorfen Kraul",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Scarlet Halls",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Scarlet Monastery",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Stormwind Stockade",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Capital Gardens",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Gordok Commons",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Dire Maul - Warpwood Quarter",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Razorfen Downs",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Scholomance",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Stratholme - Main Gate",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Uldaman",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cataclysm - Zul'Farrak",
+    "category": [
+      "3- Dungeon",
+      "Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Blood Furnace",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Hellfire Ramparts",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Slave Pens",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Underbog",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Auchenai Crypts",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Mana-Tombs",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - Sethekk Halls",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Burning Crusade - The Escape from Durnholde",
+    "category": [
+      "3- Dungeon",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wrath of the Lich King - The Nexus",
+    "category": [
+      "3- Dungeon",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wrath of the Lich King - Utgarde Keep",
+    "category": [
+      "3- Dungeon",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wrath of the Lich King - Ahn'kanet - The Old Kingdom",
+    "category": [
+      "3- Dungeon",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wrath of the Lich King - Azjol-Nerub",
+    "category": [
+      "3- Dungeon",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wrath of the Lich King - Drak'Tharon Keep",
+    "category": [
+      "3- Dungeon",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wrath of the Lich King - Violet Hold",
+    "category": [
+      "3- Dungeon",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Mists of Pandaria - Temple of the Jade Serpent",
+    "category": [
+      "3- Dungeon",
+      "Mists of Pandaria"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Mists of Pandaria - Stormstout Brewery",
+    "category": [
+      "3- Dungeon",
+      "Mists of Pandaria"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Warlords of Draenor - Bloodmaul Slag Mines",
+    "category": [
+      "3- Dungeon",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Warlords of Draenor - Shadowmoon Burial Grounds",
+    "category": [
+      "3- Dungeon",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Warlords of Draenor - Iron Docks",
+    "category": [
+      "3- Dungeon",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Assault on Violet Hold",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Black Rook Hold",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Darkheart Thicket",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Eye of Azshara",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Halls of Valor",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Maw of Souls",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Neltharion's Lair",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Legion - Vault of the Wardens",
+    "category": [
+      "3- Dungeon",
+      "Legion"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - Atal'Dazar",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - Freehold",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - Shrine of the Storm",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - Temple of Sethraliss",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - The MOTHERLODE!!",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - The Underrot",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - Tol Dagor",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Battle for Azeroth - Waycrest Manor",
+    "category": [
+      "3- Dungeon",
+      "Battle for Azeroth"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - De Other Side",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - Halls of Atonement",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - Mists of Tirna Scithe",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - Plaguefall",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - Sanguine Depths",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - Spires of Ascension",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - The Necrotic Wake",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowlands - Theater of Pain",
+    "category": [
+      "3- Dungeon",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Death Knight - Blood",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Death Knight - Frost",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Death Knight - Unholy",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Paladin - Holy",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Paladin - Protection",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Paladin - Retribution",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Warrior - Arms",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Warrior - Fury",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Warrior - Protection",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Hunter - Beast Mastery",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Hunter - Marksmanship",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Hunter - Survival",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Shaman - Elemental",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Shaman - Enhancement",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Shaman - Restoration",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Demon Hunter - Havoc",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Demon Hunter - Vengeance",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Druid - Balance",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Druid - Feral",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Druid - Guardian",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Druid - Restoration",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Monk - Brewmaster",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Monk - Mistweaver",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Monk - Windwalker",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Rogue - Assassination",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Rogue - Outlaw",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Rogue - Subtlety",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Mage - Arcane",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Mage - Fire",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Mage - Frost",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Priest - Discipline",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Priest - Holy",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Priest - Shadow",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Warlock - Affliction",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Warlock - Demonology",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Warlock - Destruction",
+    "category": [
+      "2- Specialization"
+    ],
+    "count": 1,
+    "useful": true
+  },
+  {
+    "name": "Gold Coin",
+    "category": [
+      "1- Goal"
+    ],
+    "count": 30,
+    "progression": true
+  }
+]

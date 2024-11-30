@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "WorldOfWarcraft",
+  "creator": "Chakraa",
+  "filler_item_name": "Murloc",
+  "starting_items": [
+    {
+      "item_categories": [
+        "3- Dungeon"
+      ],
+      "random": 3
+    },
+    {
+      "item_categories": [
+        "2- Specialization"
+      ],
+      "random": 1
+    }
+  ]
+}
