@@ -1,4 +1,4 @@
-# Archipelago-Manual-WorldofWarcraft-F2PAdventure
+# Archipelago-Manual-WorldofWarcraft-Dungeons
 ### World of Warcraft Free to Play Adventure
 
 So, I was trying to find a WoW Randomizer that could be accessible to everyone who would like to go at it, without buying the game or paying the sub.
