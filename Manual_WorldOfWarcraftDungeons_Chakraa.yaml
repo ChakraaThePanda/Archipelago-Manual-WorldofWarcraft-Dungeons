@@ -28,13 +28,13 @@
 name: Player{number}
 
 # Used to describe your yaml. Useful if you have multiple files.
-description: Default Manual_WorldOfWarcraftDungeons_Chakraa Template
+description: Default Manual_WorldofWarcraftDungeons_Chakraa Template
 
-game: Manual_WorldOfWarcraftDungeons_Chakraa
+game: Manual_WorldofWarcraftDungeons_Chakraa
 requires:
   version: 0.5.1 # Version of Archipelago required for this yaml to work as expected.
 
-Manual_WorldOfWarcraftDungeons_Chakraa:
+Manual_WorldofWarcraftDungeons_Chakraa:
   # Game Options
   progression_balancing:
     # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
@@ -59,6 +59,89 @@ Manual_WorldOfWarcraftDungeons_Chakraa:
     # **Minimal:** ensure what is needed to reach your goal can be acquired.
     full: 50
     minimal: 0
+
+  gamemode:
+    # The "Free to Play" mode will only allow dungeons playable at level 20. "All" will offer every dungeons accessible below level 69.
+    free_to_play: 0
+    all: 50
+
+  gold_coins:
+    # Select the amount of Gold Coins you need to complete your Goal
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  items_per_dungeon:
+    # Select the amount of items each dungeon will send in the pool
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    4: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  amount_of_dungeons:
+    # Select the amount of dungeons to complete
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 50
+    10: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  include_classic_cataclysm:
+    # When set to true, will include the dungeons for Classic/Cataclysm in the pool. (33 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_the_burning_crusade:
+    # When set to true, will include the dungeons for The Burning Crusade in the pool. (16 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_wrath_of_the_lich_king:
+    # When set to true, will include the dungeons for Wrath of the Lich King in the pool. (16 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_mists_of_pandaria:
+    # When set to true, will include the dungeons for Mists of Pandaria in the pool. (6 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_warlords_of_draenor:
+    # When set to true, will include the dungeons for Warlords of Draenor in the pool. (8 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_legion:
+    # When set to true, will include the dungeons for Legion in the pool. (8 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_battle_for_azeroth:
+    # When set to true, will include the dungeons for Battle for Azeroth in the pool. (8 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_shadowlands:
+    # When set to true, will include the dungeons for Shadowlands in the pool. (8 Dungeons)
+    'false': 0
+    'true': 50
+
+  include_dragonflight:
+    # When set to true, will include the dungeons for Dragonflight in the pool. (8 Dungeons)
+    'false': 0
+    'true': 50
 
   # Item & Location Options
   local_items:

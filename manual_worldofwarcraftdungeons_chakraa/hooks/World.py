@@ -5,6 +5,7 @@ from BaseClasses import MultiWorld, CollectionState
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
 from ..Locations import ManualLocation
+from .Options import GameMode, GoldCoins, LocationsPerDungeon, TotalDungeons
 
 # Raw JSON data from the Manual apworld, respectively:
 #          data/game.json, data/items.json, data/locations.json, data/regions.json
@@ -15,7 +16,7 @@ from ..Data import game_table, item_table, location_table, region_table
 from ..Helpers import is_option_enabled, get_option_value
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
-import logging
+import logging, random, re
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -38,20 +39,57 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    pass
+    """ Selects dungeons based on player options and disables unchosen dungeons & locations """
+
+    num_dungeons = get_option_value(multiworld, player, "amount_of_dungeons")  # Get the number of dungeons to include
+    gamemode = get_option_value(multiworld, player, "gamemode")  # Get the selected game mode
+
+    items_data = world.item_name_to_item.values()  # Retrieve all item data
+
+    all_dungeons = [item for item in items_data if "Dungeons" in item.get("category", [])]  # Get all dungeons
+    valid_dungeons = all_dungeons.copy()  # Start with all dungeons as valid
+
+    if gamemode == 0:  # If game mode is 0, filter only "Free to Play" dungeons
+        valid_dungeons = [item for item in all_dungeons if "Free to Play" in item.get("category", [])]
+
+    all_dungeons = {dungeon["name"] for dungeon in all_dungeons}  
+    valid_dungeons = list({dungeon["name"] for dungeon in valid_dungeons})
+
+    world.random.shuffle(valid_dungeons)  # Randomize the order of valid dungeons
+    selected_dungeons = list(valid_dungeons)[:num_dungeons]  # Select the required number of dungeons
+
+    world.selected_dungeons = getattr(world, "selected_dungeons", {})
+    world.selected_dungeons[player] = selected_dungeons
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
-    # Use this hook to remove locations from the world
-    locationNamesToRemove = [] # List of location names
-
-    # Add your code here to calculate which locations to remove
+    """ Removes locations belonging to unselected dungeons and those exceeding 'items_per_dungeon', while preserving Victory locations """
+    
+    if getattr(multiworld, 'generation_is_fake', False):
+        return
+    
+    selected_dungeons = world.selected_dungeons.get(player, set())
+    items_per_dungeon = get_option_value(multiworld, player, "items_per_dungeon")
 
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name in locationNamesToRemove:
-                    region.locations.remove(location)
+                dungeon_name = re.sub(r" - Item \d+$", "", location.name)
+
+                if getattr(location, "victory", False) or "Victory" in dungeon_name:
+                    continue  
+
+                if dungeon_name:
+                    if dungeon_name not in selected_dungeons:
+                        region.locations.remove(location)
+                        continue
+
+                match = re.search(r"(\d+)$", location.name)
+                if match:
+                    item_number = int(match.group(1))
+                    if item_number > items_per_dungeon:
+                        region.locations.remove(location)
+
     if hasattr(multiworld, "clear_location_cache"):
         multiworld.clear_location_cache()
 
@@ -61,31 +99,50 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # Use this hook to remove items from the item pool
-    itemNamesToRemove = [] # List of item names
+    """ Limits Gold Coins and removes items from unselected dungeons """
 
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
+    selected_dungeons = set(world.selected_dungeons.get(player, set()))
+    number_of_coins = get_option_value(multiworld, player, "gold_coins")
 
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+    # Remove excess Gold Coins
+    gold_coins = [item for item in item_pool if item.name == "Gold Coin"]
 
-    return item_pool
+    if len(gold_coins) > number_of_coins:
+        excess_coins = len(gold_coins) - number_of_coins
 
-    # Some other useful hook options:
+        for _ in range(excess_coins):
+            gold_coin = gold_coins.pop()
+            multiworld.push_precollected(gold_coin)
+            item_pool.remove(gold_coin)
 
-    ## Place an item at a specific location
-    # location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Location Name")
-    # item_to_place = next(i for i in item_pool if i.name == "Item Name")
-    # location.place_locked_item(item_to_place)
-    # item_pool.remove(item_to_place)
+    # Filter dungeon items
+    filtered_items = []
+    kept_dungeon_items = []
+
+    for item in list(item_pool):  # Copy the list to avoid modification issues
+        
+        item_table_element = next(i_t for i_t in item_table if i_t['name'] == item.name)
+        item_categories = item_table_element.get("category", [])
+
+        if "Dungeons" not in item_categories:
+            filtered_items.append(item)
+            continue
+
+        if item.name in selected_dungeons:
+            filtered_items.append(item)
+            kept_dungeon_items.append(item)
+
+    # Randomly precollect one dungeon item
+    if kept_dungeon_items:
+        starter_item = random.choice(kept_dungeon_items)
+        multiworld.push_precollected(starter_item)
+        filtered_items.remove(starter_item)
+
+    return world.add_filler_items(filtered_items, [])
 
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    return item_pool
+        return item_pool
 
 # Called before rules for accessing regions and locations are created. Not clear why you'd want this, but it's here.
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
@@ -117,7 +174,7 @@ def before_create_item(item_name: str, world: World, multiworld: MultiWorld, pla
 
 # The item that was created is provided after creation, in case you want to modify the item
 def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, player: int) -> ManualItem:
-    return item
+        return item
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int) -> list:

@@ -1,1 +1,53 @@
-{}
+{  
+  "Dungeons": {
+    "hidden": true
+  },
+  "Free to Play": {
+    "hidden": true
+  },
+  "Classic/Cataclysm": {
+    "yaml_option": [
+      "include_classic_cataclysm"
+    ]
+  },
+  "The Burning Crusade": {
+    "yaml_option": [
+      "include_the_burning_crusade"
+    ]
+  },
+  "Wrath of the Lich King": {
+    "yaml_option": [
+      "include_wrath_of_the_lich_king"
+    ]
+  },
+  "Mists of Pandaria": {
+    "yaml_option": [
+      "include_mists_of_pandaria"
+    ]
+  },
+  "Warlords of Draenor": {
+    "yaml_option": [
+      "include_warlords_of_draenor"
+    ]
+  },
+  "Legion": {
+    "yaml_option": [
+      "include_legion"
+    ]
+  },
+  "Battle for Azeroth": {
+    "yaml_option": [
+      "include_battle_for_azeroth"
+    ]
+  },
+  "Shadowlands": {
+    "yaml_option": [
+      "include_shadowlands"
+    ]
+  },
+  "Dragonflight": {
+    "yaml_option": [
+      "include_dragonflight"
+    ]
+  }
+}

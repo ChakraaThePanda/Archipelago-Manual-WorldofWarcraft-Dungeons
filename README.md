@@ -1,14 +1,20 @@
 # Archipelago-Manual-WorldofWarcraft-Dungeons
-### World of Warcraft Free to Play Adventure
+This AP World changed a bit of direction over time, going from a "Free to Play Adventure" to something that is a bit more inclusive for all the old expansions.
 
-So, I was trying to find a WoW Randomizer that could be accessible to everyone who would like to go at it, without buying the game or paying the sub.
-
-Couldn't find one, so I made one!
+## Requirements
+* Depending if you choose the "Free to Play" or "All" dungeons, you will have a certain amount of Dungeons in the pool that you must complete to send items.
+* "Free to Play" will only require a character of Level 20, which is the max level a trial free to play account can go.
+* "All" requires a character of minimum level 35 up to 60 (explained below) and will consist of every dungeons available except the lastest expansion.
+### Warning
+* In both cases, you MUST lock your XP at the maximum of level 60, otherwise you will lose access to certain dungeons (Atal'Dazar, Waycrest Manor, Freehold and Plaguefall)
 
 ## Goal
-* Complete your unlocked Dungeons with the Dungeon Finder to send checks
-* Find the 20 Gold Coins (out of 30)
+* Find all "Gold Coin" items
 ## How to play
-* You can only play the Specializations and Dungeons you have unlocked
-* You will be given 1 Starting Specialization and 3 Random Dungeons from all the available dungeons at level 10-20
-* Clearing a dungeon you have unlocked gives you 2 items
+* Your YAML file will have many options, such as:
+  * What GameMode you wish to run between "Free to Play" or "All"
+  * The amount of "Gold Coin" items to find
+  * The amount of items sent from the pool each time you complete a dungeon
+  * The amount of dungeons you want to do total
+* Clearing a dungeon you have unlocked will allow you to send items from the pool.
+* Once you have found all your "Gold Coin" items, you win the game!

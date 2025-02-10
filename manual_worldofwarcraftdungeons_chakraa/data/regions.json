@@ -1,6 +1,7 @@
 {
-  "undefined": {
+  "Goal": {
+    "starting": true,
     "connects_to": [],
-    "requires": []
+    "requires": "|Gold Coin:100|"
   }
 }
