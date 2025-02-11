@@ -4,7 +4,7 @@ This AP World changed a bit of direction over time, going from a "Free to Play A
 ## Requirements
 * Depending if you choose the "Free to Play" or "All" dungeons, you will have a certain amount of Dungeons in the pool that you must complete to send items.
 * "Free to Play" will only require a character of Level 20, which is the max level a trial free to play account can go.
-* "All" requires a character of minimum level 35 up to 60 (explained below) and will consist of every dungeons available except the lastest expansion.
+* "All" requires a character of minimum level 36 up to 60 (explained below) and will consist of every dungeons available except the lastest expansion.
 ### Warning
 * In both cases, you MUST lock your XP at the maximum of level 60, otherwise you will lose access to certain dungeons (Atal'Dazar, Waycrest Manor, Freehold and Plaguefall)
 
