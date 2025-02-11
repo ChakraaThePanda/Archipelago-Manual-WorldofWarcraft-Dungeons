@@ -13,7 +13,7 @@ from .Options import GameMode, GoldCoins, LocationsPerDungeon, TotalDungeons
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_option_enabled, get_option_value
+from ..Helpers import is_option_enabled, get_option_value, is_category_enabled
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging, random, re
@@ -41,25 +41,36 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     """ Selects dungeons based on player options and disables unchosen dungeons & locations """
 
-    num_dungeons = get_option_value(multiworld, player, "amount_of_dungeons")  # Get the number of dungeons to include
-    gamemode = get_option_value(multiworld, player, "gamemode")  # Get the selected game mode
+    num_dungeons = get_option_value(multiworld, player, "amount_of_dungeons")  # Retrieve the configured number of dungeons
+    gamemode = get_option_value(multiworld, player, "gamemode")  # Determine the selected game mode
 
-    items_data = world.item_name_to_item.values()  # Retrieve all item data
+    items_data = world.item_name_to_item.values()  # Access all item data
 
-    all_dungeons = [item for item in items_data if "Dungeons" in item.get("category", [])]  # Get all dungeons
-    valid_dungeons = all_dungeons.copy()  # Start with all dungeons as valid
+    valid_dungeons = [item for item in items_data if "Dungeons" in item.get("category", [])]  # Identify all dungeons
 
-    if gamemode == 0:  # If game mode is 0, filter only "Free to Play" dungeons
-        valid_dungeons = [item for item in all_dungeons if "Free to Play" in item.get("category", [])]
+    if gamemode == 0:  # Apply filtering for Free-to-Play mode if selected
+        valid_dungeons = [item for item in valid_dungeons if "Free to Play" in item.get("category", [])]
 
-    all_dungeons = {dungeon["name"] for dungeon in all_dungeons}  
-    valid_dungeons = list({dungeon["name"] for dungeon in valid_dungeons})
+    # List of valid expansion categories
+    valid_categories = {
+        "Classic/Cataclysm", "The Burning Crusade", "Wrath of the Lich King",
+        "Mists of Pandaria", "Warlords of Draenor", "Legion", "Battle for Azeroth",
+        "Shadowlands", "Dragonflight"
+    }
 
-    world.random.shuffle(valid_dungeons)  # Randomize the order of valid dungeons
-    selected_dungeons = list(valid_dungeons)[:num_dungeons]  # Select the required number of dungeons
+    # Filter dungeons based on enabled categories
+    valid_dungeons = [
+        dungeon for dungeon in valid_dungeons
+        if any(is_category_enabled(multiworld, player, category) for category in dungeon.get("category", []) if category in valid_categories)
+    ]
 
-    world.selected_dungeons = getattr(world, "selected_dungeons", {})
-    world.selected_dungeons[player] = selected_dungeons
+    valid_dungeons = list({dungeon["name"] for dungeon in valid_dungeons})  # Extract unique dungeon names
+
+    world.random.shuffle(valid_dungeons)  # Randomize dungeon order
+    selected_dungeons = valid_dungeons[:num_dungeons]  # Choose the required number of dungeons
+
+    world.selected_dungeons = getattr(world, "selected_dungeons", {})  # Ensure storage exists for selected dungeons
+    world.selected_dungeons[player] = selected_dungeons  # Assign the selected dungeons for the player
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):

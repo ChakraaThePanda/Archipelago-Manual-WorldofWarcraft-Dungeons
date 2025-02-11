@@ -5,7 +5,8 @@ from Options import FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, Te
 from ..Helpers import is_option_enabled, get_option_value
 
 class GameMode(Choice):
-    """The "Free to Play" mode will only allow dungeons playable at level 20. "All" will offer every dungeons accessible below level 69."""
+    """The "Free to Play" mode will only allow dungeons playable at level 20 and under. (71 possible Dungeons) 
+    "All" will offer every dungeons accessible below level 60. (40 additional Dungeons)"""
     display_name = "GameMode"
     option_free_to_play = 0
     option_all = 1
