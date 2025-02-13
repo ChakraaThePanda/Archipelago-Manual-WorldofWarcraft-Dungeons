@@ -16,7 +16,7 @@ from ..Data import game_table, item_table, location_table, region_table
 from ..Helpers import is_option_enabled, get_option_value, is_category_enabled
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
-import logging, random, re
+import logging, re
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -145,7 +145,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     # Randomly precollect one dungeon item
     if kept_dungeon_items:
-        starter_item = random.choice(kept_dungeon_items)
+        starter_item = world.random.choice(kept_dungeon_items)
         multiworld.push_precollected(starter_item)
         filtered_items.remove(starter_item)
 
