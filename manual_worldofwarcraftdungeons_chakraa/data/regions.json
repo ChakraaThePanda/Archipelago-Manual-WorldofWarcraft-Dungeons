@@ -2,6 +2,6 @@
   "Goal": {
     "starting": true,
     "connects_to": [],
-    "requires": "|Gold Coin:100|"
+    "requires": "|@Apexis Crystals:ALL|"
   }
 }

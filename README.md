@@ -9,12 +9,12 @@ This AP World changed a bit of direction over time, going from a "Free to Play A
 * In both cases, you MUST lock your XP at the maximum of level 60, otherwise you will lose access to certain dungeons (Atal'Dazar, Waycrest Manor, Freehold and Plaguefall)
 
 ## Goal
-* Find all "Gold Coin" items
+* Find all "Apexis Crystal" items
 ## How to play
 * Your YAML file will have many options, such as:
   * What GameMode you wish to run between "Free to Play" or "All"
-  * The amount of "Gold Coin" items to find
+  * The amount of "Apexis Crystal" items to find
   * The amount of items sent from the pool each time you complete a dungeon
   * The amount of dungeons you want to do total
 * Clearing a dungeon you have unlocked will allow you to send items from the pool.
-* Once you have found all your "Gold Coin" items, you win the game!
+* Once you have found all your "Apexis Crystal" items, you win the game!

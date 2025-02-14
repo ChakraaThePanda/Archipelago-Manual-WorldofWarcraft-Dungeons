@@ -5,7 +5,7 @@ from BaseClasses import MultiWorld, CollectionState
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
 from ..Locations import ManualLocation
-from .Options import GameMode, GoldCoins, LocationsPerDungeon, TotalDungeons
+from .Options import GameMode, ApexisCrystals, LocationsPerDungeon, TotalDungeons
 
 # Raw JSON data from the Manual apworld, respectively:
 #          data/game.json, data/items.json, data/locations.json, data/regions.json
@@ -110,21 +110,17 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    """ Limits Gold Coins and removes items from unselected dungeons """
+    """ Limits Apexis Crystals and removes items from unselected dungeons """
 
     selected_dungeons = set(world.selected_dungeons.get(player, set()))
-    number_of_coins = get_option_value(multiworld, player, "gold_coins")
+    number_of_crystals = get_option_value(multiworld, player, "apexis_crystals")
 
-    # Remove excess Gold Coins
-    gold_coins = [item for item in item_pool if item.name == "Gold Coin"]
+    # Find all Apexis Crystals in the item pool
+    apexis_crystals = [item for item in item_pool if item.name == "Apexis Crystal"]
 
-    if len(gold_coins) > number_of_coins:
-        excess_coins = len(gold_coins) - number_of_coins
-
-        for _ in range(excess_coins):
-            gold_coin = gold_coins.pop()
-            multiworld.push_precollected(gold_coin)
-            item_pool.remove(gold_coin)
+    # Remove excess crystals, keeping only the needed amount
+    for apexis_crystal in apexis_crystals[number_of_crystals:]:
+        item_pool.remove(apexis_crystal)
 
     # Filter dungeon items
     filtered_items = []

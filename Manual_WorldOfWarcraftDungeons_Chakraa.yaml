@@ -66,8 +66,8 @@ Manual_WorldofWarcraftDungeons_Chakraa:
     free_to_play: 0
     all: 50
 
-  gold_coins:
-    # Select the amount of Gold Coins you need to complete your Goal
+  apexis_crystals:
+    # Select the amount of Apexis Crystals you need to complete your Goal
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1

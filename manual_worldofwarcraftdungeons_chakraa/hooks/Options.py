@@ -12,9 +12,9 @@ class GameMode(Choice):
     option_all = 1
     default = 1
 
-class GoldCoins(Range):
-    """Select the amount of Gold Coins you need to complete your Goal"""
-    display_name = "Gold Coins amount"
+class ApexisCrystals(Range):
+    """Select the amount of Apexis Crystals you need to complete your Goal"""
+    display_name = "Apexis Crystals amount"
     range_start = 1
     range_end = 100
     default = 10
@@ -36,7 +36,7 @@ class TotalDungeons(Range):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["gamemode"] = GameMode
-    options["gold_coins"] = GoldCoins
+    options["apexis_crystals"] = ApexisCrystals
     options["items_per_dungeon"] = LocationsPerDungeon
     options["amount_of_dungeons"] = TotalDungeons
     return options

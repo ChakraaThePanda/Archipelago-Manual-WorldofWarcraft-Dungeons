@@ -5,6 +5,9 @@
   "Free to Play": {
     "hidden": true
   },
+  "Filler": {
+    "hidden": true
+  },
   "Classic/Cataclysm": {
     "yaml_option": [
       "include_classic_cataclysm"
