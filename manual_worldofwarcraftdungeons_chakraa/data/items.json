@@ -1,1080 +1,1080 @@
 [
-    {
-      "name": "Apexis Crystal",
-      "category": [
-        "Apexis Crystals"
-      ],
-      "count": 100,
-      "progression": true
-    },
-    {
-      "name": "Deadmines",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Ragefire Chasm",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Shadowfang Keep",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Wailing Caverns",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Blackfathom Deeps",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Gnomeragan",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Maraudon - Earth Song Falls",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Maraudon - Foulspore Cavern",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Maraudon - The Wicked Grotto",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Razorfen Kraul",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Scarlet Halls",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Scarlet Monastery",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Stormwind Stockade",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Dire Maul - Capital Gardens",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Dire Maul - Gordok Commons",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Dire Maul - Warpwood Quarter",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Razorfen Downs",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Scholomance",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Stratholme - Main Gate",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Uldaman",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Zul'Farrak",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Blackrock Depths - Detention Block",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Blackrock Depths - Upper City",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Lower Blackrock Spire",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Stratholme - Service Entrance",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Sunken Temple",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Blood Furnace",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Hellfire Ramparts",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Slave Pens",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Underbog",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Auchenai Crypts",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Mana-Tombs",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Sethekk Halls",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Escape from Durnholde",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Shadow Labyrinth",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Shattered Halls",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Botanica",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Mechanar",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Steamvault",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Magisters' Terrace",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Opening of the Dark Portal",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Arcatraz",
-      "category": [
-        "Dungeons",
-        "The Burning Crusade"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Nexus",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Utgarde Keep",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Ahn'kanet - The Old Kingdom",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Azjol-Nerub",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Drak'Tharon Keep",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Violet Hold",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Gundrak",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Lightning",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Stone",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Oculus",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Utgarde Pinnacle",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Reflection",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Pit of Saron",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Culling of Stratholme",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Forge of Souls",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Trial of the Champion",
-      "category": [
-        "Dungeons",
-        "Wrath of the Lich King"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Blackrock Caverns",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Grim Batol",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Origination",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Lost City of the Tol'vir",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Stonecore",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Vortex Pinnacle",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Throne of the Tides",
-      "category": [
-        "Dungeons",
-        "Classic/Cataclysm"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Temple of the Jade Serpent",
-      "category": [
-        "Dungeons",
-        "Mists of Pandaria",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Stormstout Brewery",
-      "category": [
-        "Dungeons",
-        "Mists of Pandaria",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Mogu'shan Palace",
-      "category": [
-        "Dungeons",
-        "Mists of Pandaria"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Shado-Pan Monastery",
-      "category": [
-        "Dungeons",
-        "Mists of Pandaria"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Gate of the Setting Sun",
-      "category": [
-        "Dungeons",
-        "Mists of Pandaria"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Siege of Niuzao Temple",
-      "category": [
-        "Dungeons",
-        "Mists of Pandaria"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Bloodmaul Slag Mines",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Shadowmoon Burial Grounds",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Iron Docks",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Auchindoun",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Skyreach",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Grimrail Depot",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Everbloom",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Upper Blackrock Spire",
-      "category": [
-        "Dungeons",
-        "Warlords of Draenor"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Assault on Violet Hold",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Black Rook Hold",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Darkheart Thicket",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Eye of Azshara",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Valor",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Maw of Souls",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Neltharion's Lair",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Vault of the Wardens",
-      "category": [
-        "Dungeons",
-        "Legion",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Atal'Dazar",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Freehold",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Shrine of the Storm",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Temple of Sethraliss",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The MOTHERLODE!!",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Underrot",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Tol Dagor",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Waycrest Manor",
-      "category": [
-        "Dungeons",
-        "Battle for Azeroth",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "De Other Side",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Atonement",
-      "category": [
-        "Dungeons",
-        "Shadowlands"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Mists of Tirna Scithe",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Plaguefall",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Sanguine Depths",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Spires of Ascension",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Necrotic Wake",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Theater of Pain",
-      "category": [
-        "Dungeons",
-        "Shadowlands",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Ruby Life Pools",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Neltharus",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Nokhud Offensive",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Uldaman - Legacy of Tyr",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Brackenhide Hollow",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "The Azure Vault",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Halls of Infusion",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    },
-    {
-      "name": "Algeth'ar Academy",
-      "category": [
-        "Dungeons",
-        "Dragonflight",
-        "Free to Play"
-      ],
-      "count": 1,
-      "progression": true
-    }
+  {
+    "name": "Apexis Crystal",
+    "category": [
+      "Apexis Crystals"
+    ],
+    "count": 100,
+    "progression": true
+  },
+  {
+    "name": "Deadmines",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Ragefire Chasm",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowfang Keep",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Wailing Caverns",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Blackfathom Deeps",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Gnomeragan",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Maraudon - Earth Song Falls",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Maraudon - Foulspore Cavern",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Maraudon - The Wicked Grotto",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Razorfen Kraul",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Scarlet Halls",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Scarlet Monastery",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Stormwind Stockade",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Dire Maul - Capital Gardens",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Dire Maul - Gordok Commons",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Dire Maul - Warpwood Quarter",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Razorfen Downs",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Scholomance",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Stratholme - Main Gate",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Uldaman",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Zul'Farrak",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Blackrock Depths - Detention Block",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Blackrock Depths - Upper City",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Lower Blackrock Spire",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Stratholme - Service Entrance",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Sunken Temple",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Blood Furnace",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Hellfire Ramparts",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Slave Pens",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Underbog",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Auchenai Crypts",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Mana-Tombs",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Sethekk Halls",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Escape from Durnholde",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadow Labyrinth",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shattered Halls",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Botanica",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Mechanar",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Steamvault",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Magisters' Terrace",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Opening of the Dark Portal",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Arcatraz",
+    "category": [
+      "Dungeons",
+      "The Burning Crusade"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Nexus",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Utgarde Keep",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Ahn'kanet - The Old Kingdom",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Azjol-Nerub",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Drak'Tharon Keep",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Violet Hold",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Gundrak",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Lightning",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Stone",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Oculus",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Utgarde Pinnacle",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Reflection",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Pit of Saron",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Culling of Stratholme",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Forge of Souls",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Trial of the Champion",
+    "category": [
+      "Dungeons",
+      "Wrath of the Lich King"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Blackrock Caverns",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Grim Batol",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Origination",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Lost City of the Tol'vir",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Stonecore",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Vortex Pinnacle",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Throne of the Tides",
+    "category": [
+      "Dungeons",
+      "Classic/Cataclysm"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Temple of the Jade Serpent",
+    "category": [
+      "Dungeons",
+      "Mists of Pandaria",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Stormstout Brewery",
+    "category": [
+      "Dungeons",
+      "Mists of Pandaria",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Mogu'shan Palace",
+    "category": [
+      "Dungeons",
+      "Mists of Pandaria"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shado-Pan Monastery",
+    "category": [
+      "Dungeons",
+      "Mists of Pandaria"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Gate of the Setting Sun",
+    "category": [
+      "Dungeons",
+      "Mists of Pandaria"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Siege of Niuzao Temple",
+    "category": [
+      "Dungeons",
+      "Mists of Pandaria"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Bloodmaul Slag Mines",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shadowmoon Burial Grounds",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Iron Docks",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Auchindoun",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Skyreach",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Grimrail Depot",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Everbloom",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Upper Blackrock Spire",
+    "category": [
+      "Dungeons",
+      "Warlords of Draenor"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Assault on Violet Hold",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Black Rook Hold",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Darkheart Thicket",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Eye of Azshara",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Valor",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Maw of Souls",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Neltharion's Lair",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Vault of the Wardens",
+    "category": [
+      "Dungeons",
+      "Legion",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Atal'Dazar",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Freehold",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shrine of the Storm",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Temple of Sethraliss",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The MOTHERLODE!!",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Underrot",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Tol Dagor",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Waycrest Manor",
+    "category": [
+      "Dungeons",
+      "Battle for Azeroth",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "De Other Side",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Atonement",
+    "category": [
+      "Dungeons",
+      "Shadowlands"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Mists of Tirna Scithe",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Plaguefall",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Sanguine Depths",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Spires of Ascension",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Necrotic Wake",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Theater of Pain",
+    "category": [
+      "Dungeons",
+      "Shadowlands",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Ruby Life Pools",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Neltharus",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Nokhud Offensive",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Uldaman - Legacy of Tyr",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Brackenhide Hollow",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "The Azure Vault",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Halls of Infusion",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Algeth'ar Academy",
+    "category": [
+      "Dungeons",
+      "Dragonflight",
+      "Free to Play"
+    ],
+    "count": 1,
+    "progression": true
+  }
 ]
