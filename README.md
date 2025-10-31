@@ -1,6 +1,10 @@
 # Archipelago-Manual-WorldofWarcraft-Dungeons
 This AP World changed a bit of direction over time, going from a "Free to Play Adventure" to something that is a bit more inclusive for all the old expansions.
 
+## ⚠️ Note of Compatibility
+* This AP was built during TWW Season 2. As I no longer play the game, the dungeons list might differ a little bit of the course of expansions releasing.
+* If you use or plan to use this AP in the future, you can always open an issue with the new list of dungeons and their level accessibility for Free to Play or not. That way I can fix the AP quickly for you to use!
+
 ## Requirements
 * Depending if you choose the "Free to Play" or "All" dungeons, you will have a certain amount of Dungeons in the pool that you must complete to send items.
 * "Free to Play" will only require a character of Level 20, which is the max level a trial free to play account can go.
