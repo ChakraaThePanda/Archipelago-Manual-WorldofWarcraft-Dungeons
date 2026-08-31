@@ -26,8 +26,8 @@ from typing import Type, Any
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 class GameMode(Choice):
-    """The "Free to Play" mode will only allow dungeons playable at level 20 and under. (71 possible Dungeons) 
-    "All" will offer every dungeons accessible below level 60. (40 additional Dungeons)"""
+    """The "Free to Play" mode will only allow dungeons playable at level 20 and under. (70 possible Dungeons)
+    "All" will offer every dungeons accessible below level 60. (35 additional Dungeons)"""
     display_name = "GameMode"
     option_free_to_play = 0
     option_all = 1
@@ -84,7 +84,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["include_warlords_of_draenor"].display_name = """Include Warlords of Draenor"""
     options.type_hints["include_legion"].__doc__ = """When set to true, will include the dungeons for Legion in the pool. (8 Dungeons)"""
     options.type_hints["include_legion"].display_name = """Include Legion"""
-    options.type_hints["include_battle_for_azeroth"].__doc__ = """When set to true, will include the dungeons for Battle for Azeroth in the pool. (8 Dungeons)"""
+    options.type_hints["include_battle_for_azeroth"].__doc__ = """When set to true, will include the dungeons for Battle for Azeroth in the pool. (6 Dungeons)"""
     options.type_hints["include_battle_for_azeroth"].display_name = """Include Battle for Azeroth"""
     options.type_hints["include_shadowlands"].__doc__ = """When set to true, will include the dungeons for Shadowlands in the pool. (8 Dungeons)"""
     options.type_hints["include_shadowlands"].display_name = """Include Shadowlands"""

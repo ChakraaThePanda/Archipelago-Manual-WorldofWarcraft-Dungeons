@@ -6,7 +6,7 @@ This AP World changed a bit of direction over time, going from a "Free to Play A
 * "Free to Play" will only require a character of Level 20, which is the max level a trial free to play account can go.
 * "All" requires a character of minimum level 36 up to 60 (explained below) and will consist of every dungeons available except the lastest expansion.
 ### Warning
-* In both cases, you MUST lock your XP at the maximum of level 60, otherwise you will lose access to certain dungeons (Atal'Dazar, Waycrest Manor, Freehold and Plaguefall)
+* In both cases, you MUST lock your XP at the maximum of level 60, otherwise you will lose access to certain dungeons (Plaguefall)
 
 ## Goal
 * Find all "Apexis Crystal" items
