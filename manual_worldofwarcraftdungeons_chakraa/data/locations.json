@@ -5893,70 +5893,80 @@
     {
       "name": "Temple of Sethraliss - Item 01",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 02",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 03",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 04",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 05",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 06",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 07",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 08",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 09",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
     {
       "name": "Temple of Sethraliss - Item 10",
       "category": [
-        "Battle for Azeroth"
+        "Battle for Azeroth",
+        "Mythic+"
       ],
       "requires": "|Temple of Sethraliss|"
     },
@@ -6803,70 +6813,80 @@
     {
       "name": "Ruby Life Pools - Item 01",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 02",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 03",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 04",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 05",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 06",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 07",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 08",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 09",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
     {
       "name": "Ruby Life Pools - Item 10",
       "category": [
-        "Dragonflight"
+        "Dragonflight",
+        "Mythic+"
       ],
       "requires": "|Ruby Life Pools|"
     },
@@ -7359,6 +7379,486 @@
         "Dragonflight"
       ],
       "requires": "|Algeth'ar Academy|"
+    },
+    {
+      "name": "Altar of Fangs - Item 01",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 02",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 03",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 04",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 05",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 06",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 07",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 08",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 09",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Altar of Fangs - Item 10",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Altar of Fangs|"
+    },
+    {
+      "name": "Murder Row - Item 01",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 02",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 03",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 04",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 05",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 06",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 07",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 08",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 09",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Murder Row - Item 10",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Murder Row|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 01",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 02",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 03",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 04",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 05",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 06",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 07",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 08",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 09",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "Den of Nalorakk - Item 10",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Den of Nalorakk|"
+    },
+    {
+      "name": "The Blinding Vale - Item 01",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 02",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 03",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 04",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 05",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 06",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 07",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 08",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 09",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "The Blinding Vale - Item 10",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|The Blinding Vale|"
+    },
+    {
+      "name": "Voidscar Arena - Item 01",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 02",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 03",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 04",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 05",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 06",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 07",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 08",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 09",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "Voidscar Arena - Item 10",
+      "category": [
+        "Midnight",
+        "Mythic+"
+      ],
+      "requires": "|Voidscar Arena|"
+    },
+    {
+      "name": "King's Rest - Item 01",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 02",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 03",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 04",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 05",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 06",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 07",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 08",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 09",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
+    },
+    {
+      "name": "King's Rest - Item 10",
+      "category": [
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "requires": "|King's Rest|"
     }
   ]
 }

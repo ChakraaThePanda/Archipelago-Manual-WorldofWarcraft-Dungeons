@@ -56,26 +56,33 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     valid_dungeons = [item for item in items_data if "Dungeons" in item.get("category", [])]  # Identify all dungeons
 
-    if gamemode == 0:  # Apply filtering for Free-to-Play mode if selected
-        valid_dungeons = [item for item in valid_dungeons if "Free to Play" in item.get("category", [])]
+    if gamemode == GameMode.option_mythicplus:  # Mythic+ mode only ever runs the dedicated Mythic+ dungeon pool
+        valid_dungeons = [item for item in valid_dungeons if "Mythic+" in item.get("category", [])]
+    else:
+        # Some dungeons are only tagged with an expansion category for display purposes (e.g. King's Rest showing
+        # under "Battle for Azeroth"), but must remain exclusive to Mythic+ mode
+        valid_dungeons = [item for item in valid_dungeons if not item.get("mythicplus_only")]
 
-    # List of valid expansion categories
-    valid_categories = {
-        "Classic/Cataclysm", "The Burning Crusade", "Wrath of the Lich King",
-        "Mists of Pandaria", "Warlords of Draenor", "Legion", "Battle for Azeroth",
-        "Shadowlands", "Dragonflight"
-    }
+        if gamemode == GameMode.option_free_to_play:  # Apply filtering for Free-to-Play mode if selected
+            valid_dungeons = [item for item in valid_dungeons if "Free to Play" in item.get("category", [])]
 
-    # Filter dungeons based on enabled categories
-    valid_dungeons = [
-        dungeon for dungeon in valid_dungeons
-        if any(is_category_enabled(multiworld, player, category) for category in dungeon.get("category", []) if category in valid_categories)
-    ]
+        # List of valid expansion categories
+        valid_categories = {
+            "Classic/Cataclysm", "The Burning Crusade", "Wrath of the Lich King",
+            "Mists of Pandaria", "Warlords of Draenor", "Legion", "Battle for Azeroth",
+            "Shadowlands", "Dragonflight"
+        }
+
+        # Filter dungeons based on enabled categories
+        valid_dungeons = [
+            dungeon for dungeon in valid_dungeons
+            if any(is_category_enabled(multiworld, player, category) for category in dungeon.get("category", []) if category in valid_categories)
+        ]
 
     valid_dungeons = list({dungeon["name"] for dungeon in valid_dungeons})  # Extract unique dungeon names
 
     world.random.shuffle(valid_dungeons)  # Randomize dungeon order
-    selected_dungeons = valid_dungeons[:num_dungeons]  # Choose the required number of dungeons
+    selected_dungeons = set(valid_dungeons[:num_dungeons])  # Choose the required number of dungeons
 
     world.selected_dungeons = getattr(world, "selected_dungeons", {})  # Ensure storage exists for selected dungeons
     world.selected_dungeons[player] = selected_dungeons  # Assign the selected dungeons for the player
@@ -131,7 +138,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     """ Limits Apexis Crystals and removes items from unselected dungeons """
 
-    selected_dungeons = set(world.selected_dungeons.get(player, set()))
+    selected_dungeons = world.selected_dungeons.get(player, set())
     number_of_crystals = get_option_value(multiworld, player, "apexis_crystals")
 
     # Find all Apexis Crystals in the item pool
@@ -146,9 +153,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     kept_dungeon_items = []
 
     for item in list(item_pool):  # Copy the list to avoid modification issues
-        
-        item_table_element = next(i_t for i_t in item_table if i_t['name'] == item.name)
-        item_categories = item_table_element.get("category", [])
+        item_categories = world.item_name_to_item[item.name].get("category", [])
 
         if "Dungeons" not in item_categories:
             filtered_items.append(item)
@@ -241,6 +246,19 @@ def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld,
 
 # This is called after slot data is set and provides the slot data at the time, in case you want to check and modify it after Manual is done with it
 def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
+    """ Tells the client which item categories actually exist in this player's pool, so it can hide the rest
+    (e.g. other expansions' categories when GameMode restricted the pool, like Mythic+) from "Items Received" """
+
+    selected_dungeons = world.selected_dungeons.get(player, set())
+    active_categories = set()
+
+    for item in world.item_name_to_item.values():
+        categories = item.get("category", [])
+        if "Dungeons" in categories and item["name"] not in selected_dungeons:
+            continue
+        active_categories.update(categories)
+
+    slot_data["active_item_categories"] = sorted(active_categories)
     return slot_data
 
 # This is called right at the end, in case you want to write stuff to the spoiler log

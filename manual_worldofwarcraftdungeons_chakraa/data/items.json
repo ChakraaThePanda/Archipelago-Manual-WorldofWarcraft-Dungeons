@@ -819,7 +819,8 @@
       "category": [
         "Dungeons",
         "Battle for Azeroth",
-        "Free to Play"
+        "Free to Play",
+        "Mythic+"
       ],
       "count": 1,
       "progression": true
@@ -949,7 +950,8 @@
       "category": [
         "Dungeons",
         "Dragonflight",
-        "Free to Play"
+        "Free to Play",
+        "Mythic+"
       ],
       "count": 1,
       "progression": true
@@ -1023,6 +1025,67 @@
       ],
       "count": 1,
       "progression": true
+    },
+    {
+      "name": "Altar of Fangs",
+      "category": [
+        "Dungeons",
+        "Midnight",
+        "Mythic+"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Murder Row",
+      "category": [
+        "Dungeons",
+        "Midnight",
+        "Mythic+"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Den of Nalorakk",
+      "category": [
+        "Dungeons",
+        "Midnight",
+        "Mythic+"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "The Blinding Vale",
+      "category": [
+        "Dungeons",
+        "Midnight",
+        "Mythic+"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Voidscar Arena",
+      "category": [
+        "Dungeons",
+        "Midnight",
+        "Mythic+"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "King's Rest",
+      "category": [
+        "Dungeons",
+        "Battle for Azeroth",
+        "Mythic+"
+      ],
+      "count": 1,
+      "progression": true,
+      "mythicplus_only": true
     }
   ]
 }

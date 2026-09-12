@@ -129,6 +129,7 @@ class ManualContext(SuperContext):
     deathlink_out = False
 
     visible_events = {}
+    active_item_categories = None
 
     search_term = ""
     items_sorting = SortingOrderItem.default.name
@@ -260,6 +261,8 @@ class ManualContext(SuperContext):
                         self.set_deathlink = True
                         self.last_death_link = 0
                     self.visible_events = args['slot_data'].get('visible_events', {})
+                    active_categories = args['slot_data'].get('active_item_categories')
+                    self.active_item_categories = set(active_categories) if active_categories is not None else None
                     logger.info(f"Slot data: {args['slot_data']}")
 
             self.ui.build_tracker_and_locations_table()
@@ -652,6 +655,8 @@ class ManualContext(SuperContext):
                         for category in item["category"]:
                             category_settings = self.ctx.category_table.get(category) or getattr(AutoWorldRegister.world_types[self.ctx.game], "category_table", {}).get(category, {})
                             if "hidden" in category_settings and category_settings["hidden"]:
+                                continue
+                            if self.ctx.active_item_categories is not None and category not in self.ctx.active_item_categories:
                                 continue
                             if category not in self.item_categories:
                                 self.item_categories.append(category)

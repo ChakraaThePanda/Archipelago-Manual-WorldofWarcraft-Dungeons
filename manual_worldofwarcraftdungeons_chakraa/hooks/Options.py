@@ -27,10 +27,12 @@ from typing import Type, Any
 #
 class GameMode(Choice):
     """The "Free to Play" mode will only allow dungeons playable at level 20 and under. (70 possible Dungeons)
-    "All" will offer every dungeons accessible below level 60. (35 additional Dungeons)"""
+    "All" will offer every dungeons accessible below level 60. (35 additional Dungeons)
+    "Mythic+" will replace the dungeon pool entirely with the 8 dungeons currently running in the Midnight Season 2 Mythic+ rotation, ignoring every "Include" option."""
     display_name = "GameMode"
     option_free_to_play = 0
     option_all = 1
+    option_mythicplus = 2
     default = 1
 
 class ApexisCrystals(Range):
@@ -72,23 +74,32 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
 
-    options.type_hints["include_classic_cataclysm"].__doc__ = """When set to true, will include the dungeons for Classic/Cataclysm in the pool. (33 Dungeons)"""
+    options.type_hints["include_classic_cataclysm"].__doc__ = """When set to true, will include the dungeons for Classic/Cataclysm in the pool. (33 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_classic_cataclysm"].display_name = """Include Classic/Cataclysm"""
-    options.type_hints["include_the_burning_crusade"].__doc__ = """When set to true, will include the dungeons for The Burning Crusade in the pool. (16 Dungeons)"""
+    options.type_hints["include_the_burning_crusade"].__doc__ = """When set to true, will include the dungeons for The Burning Crusade in the pool. (16 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_the_burning_crusade"].display_name = """Include The Burning Crusade"""
-    options.type_hints["include_wrath_of_the_lich_king"].__doc__ = """When set to true, will include the dungeons for Wrath of the Lich King in the pool. (16 Dungeons)"""
+    options.type_hints["include_wrath_of_the_lich_king"].__doc__ = """When set to true, will include the dungeons for Wrath of the Lich King in the pool. (12 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_wrath_of_the_lich_king"].display_name = """Include Wrath of the Lich King"""
-    options.type_hints["include_mists_of_pandaria"].__doc__ = """When set to true, will include the dungeons for Mists of Pandaria in the pool. (6 Dungeons)"""
+    options.type_hints["include_mists_of_pandaria"].__doc__ = """When set to true, will include the dungeons for Mists of Pandaria in the pool. (6 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_mists_of_pandaria"].display_name = """Include Mists of Pandaria"""
-    options.type_hints["include_warlords_of_draenor"].__doc__ = """When set to true, will include the dungeons for Warlords of Draenor in the pool. (8 Dungeons)"""
+    options.type_hints["include_warlords_of_draenor"].__doc__ = """When set to true, will include the dungeons for Warlords of Draenor in the pool. (8 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_warlords_of_draenor"].display_name = """Include Warlords of Draenor"""
-    options.type_hints["include_legion"].__doc__ = """When set to true, will include the dungeons for Legion in the pool. (8 Dungeons)"""
+    options.type_hints["include_legion"].__doc__ = """When set to true, will include the dungeons for Legion in the pool. (8 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_legion"].display_name = """Include Legion"""
-    options.type_hints["include_battle_for_azeroth"].__doc__ = """When set to true, will include the dungeons for Battle for Azeroth in the pool. (6 Dungeons)"""
+    options.type_hints["include_battle_for_azeroth"].__doc__ = """When set to true, will include the dungeons for Battle for Azeroth in the pool. (6 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_battle_for_azeroth"].display_name = """Include Battle for Azeroth"""
-    options.type_hints["include_shadowlands"].__doc__ = """When set to true, will include the dungeons for Shadowlands in the pool. (8 Dungeons)"""
+    options.type_hints["include_shadowlands"].__doc__ = """When set to true, will include the dungeons for Shadowlands in the pool. (8 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_shadowlands"].display_name = """Include Shadowlands"""
-    options.type_hints["include_dragonflight"].__doc__ = """When set to true, will include the dungeons for Dragonflight in the pool. (8 Dungeons)"""
+    options.type_hints["include_dragonflight"].__doc__ = """When set to true, will include the dungeons for Dragonflight in the pool. (8 Dungeons)
+    Has no effect when GameMode is set to "Mythic+"."""
     options.type_hints["include_dragonflight"].display_name = """Include Dragonflight"""
     return options
 

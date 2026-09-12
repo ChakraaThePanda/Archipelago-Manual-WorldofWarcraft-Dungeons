@@ -52,5 +52,9 @@
     "yaml_option": [
       "include_dragonflight"
     ]
-  }
+  },
+  "Mythic+": {
+    "hidden": true
+  },
+  "Midnight": {}
 }
