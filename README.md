@@ -19,3 +19,9 @@ This AP World changed a bit of direction over time, going from a "Free to Play A
   * The amount of dungeons you want to do total
 * Clearing a dungeon you have unlocked will allow you to send items from the pool.
 * Once you have found all your "Apexis Crystal" items, you win the game!
+
+---
+
+### Questions or feedback?
+
+Need help, found a bug, or have an idea? Join my Discord server, [Chakraa's Projects](https://discord.gg/bkk4nVXcjm), and post in this project's channel.
