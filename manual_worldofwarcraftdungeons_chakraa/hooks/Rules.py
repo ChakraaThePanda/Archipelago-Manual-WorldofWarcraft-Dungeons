@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 import re
@@ -27,3 +27,8 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+
+
+def ApexisCrystalsNeeded(world: World, player: int):
+    """The goal needs the apexis_crystals amount, not every crystal in the pool (some are extra)."""
+    return f"|Apexis Crystal:{get_option_value(world.multiworld, player, 'apexis_crystals')}|"

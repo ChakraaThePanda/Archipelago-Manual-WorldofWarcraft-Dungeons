@@ -10,15 +10,15 @@ This AP World changed a bit of direction over time, going from a "Free to Play A
 * In both "Free to Play" and "All" cases, you MUST lock your XP at the maximum of level 60, otherwise you will lose access to certain dungeons (Plaguefall)
 
 ## Goal
-* Find all "Apexis Crystal" items
+* Find enough "Apexis Crystal" items
 ## How to play
 * Your YAML file will have many options, such as:
   * What GameMode you wish to run between "Free to Play", "All" or "Mythic+"
-  * The amount of "Apexis Crystal" items to find
+  * The amount of "Apexis Crystal" items to find, and how many extra ones are hidden in the multiworld (20% more by default)
   * The amount of items sent from the pool each time you complete a dungeon
   * The amount of dungeons you want to do total
 * Clearing a dungeon you have unlocked will allow you to send items from the pool.
-* Once you have found all your "Apexis Crystal" items, you win the game!
+* Once you have found the amount of "Apexis Crystal" items you need, you win the game!
 
 ---
 

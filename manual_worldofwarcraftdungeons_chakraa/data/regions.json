@@ -3,6 +3,6 @@
   "Goal": {
     "starting": true,
     "connects_to": [],
-    "requires": "|@Apexis Crystals:ALL|"
+    "requires": "{ApexisCrystalsNeeded()}"
   }
 }

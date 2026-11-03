@@ -42,6 +42,14 @@ class ApexisCrystals(Range):
     range_end = 100
     default = 10
 
+class ExtraApexisCrystals(Range):
+    """Adds this percentage of extra Apexis Crystals to the multiworld, on top of the ones you need,
+    so you don't have to find every single one."""
+    display_name = "Extra Apexis Crystals (%)"
+    range_start = 0
+    range_end = 100
+    default = 20
+
 class LocationsPerDungeon(Range):
     """Select the amount of items each dungeon will send in the pool"""
     display_name = "Items per Dungeon"
@@ -60,6 +68,7 @@ class TotalDungeons(Range):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["gamemode"] = GameMode
     options["apexis_crystals"] = ApexisCrystals
+    options["extra_apexis_crystals_percent"] = ExtraApexisCrystals
     options["items_per_dungeon"] = LocationsPerDungeon
     options["amount_of_dungeons"] = TotalDungeons
     return options

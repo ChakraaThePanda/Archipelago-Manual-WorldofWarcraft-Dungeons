@@ -17,7 +17,7 @@ from ..Data import game_table, item_table, location_table, region_table
 from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat, is_category_enabled
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
-import logging, re
+import logging, math, re
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -139,12 +139,14 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     """ Limits Apexis Crystals and removes items from unselected dungeons """
 
     selected_dungeons = world.selected_dungeons.get(player, set())
-    number_of_crystals = get_option_value(multiworld, player, "apexis_crystals")
+    # The crystals needed, plus extra_apexis_crystals_percent more
+    number_of_crystals = math.ceil(get_option_value(multiworld, player, "apexis_crystals")
+                                   * (100 + get_option_value(multiworld, player, "extra_apexis_crystals_percent")) / 100)
 
     # Find all Apexis Crystals in the item pool
     apexis_crystals = [item for item in item_pool if item.name == "Apexis Crystal"]
 
-    # Remove excess crystals, keeping only the needed amount
+    # Remove excess crystals, keeping only that amount
     for apexis_crystal in apexis_crystals[number_of_crystals:]:
         item_pool.remove(apexis_crystal)
 
